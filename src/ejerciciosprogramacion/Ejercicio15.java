@@ -8,8 +8,8 @@ package ejerciciosprogramacion;
 
 /**
  *
- * @authora : Luisa Holguin
+ * @authora :Luisa Holguin
  */
-public class Ejercicio13 {
-
+public class Ejercicio15 {
+    
 }

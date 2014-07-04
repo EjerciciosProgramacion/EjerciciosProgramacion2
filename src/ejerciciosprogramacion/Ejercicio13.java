@@ -37,7 +37,7 @@ public static void main(String[] args) {
         }
          for (int i :arregloauxiliar) {
         System.out.printf("%d ",i);
-    }
-}
+    }//fin del for
+  }
 }
 

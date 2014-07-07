@@ -6,12 +6,15 @@
 
 package ejerciciosprogramacion;
 
+import javax.swing.JOptionPane;
+
 /**
  *
- * @authora :Luisa Holguin
+ * @authora:Luisa Holguin
  */
 public class Ejercicio16 {
     public int serie(int x, int y , int z){
+        JOptionPane.showMessageDialog(null," EJERCICIO 16 " , " Ejercicios de Programacion ", JOptionPane.INFORMATION_MESSAGE);
         int cont = 0;
         int a = 0;
         int acum = 0;

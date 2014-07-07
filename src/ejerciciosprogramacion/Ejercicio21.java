@@ -6,12 +6,29 @@
 
 package ejerciciosprogramacion;
 
+import java.util.Scanner;
+
 /**
  *
  * @authora : Luisa Holguin
  */
 public class Ejercicio21 {
    public String Matriz1(String [][]n){
+       Scanner entrada=new Scanner(System.in);    
+        System.out.println("Ingrese Dimensión de la Matriz:\nx: ");
+        int x=entrada.nextInt();
+        System.out.println("y: ");
+        int y=entrada.nextInt();
+        int valor;
+        int matriz[][]=new int [x][y]; 
+        for (int i = 0; i < x; i++) {
+            for (int j = 0; j < y; j++) {
+                System.out.println("Ingrese valor en Pos.: "+i+j);
+                valor=entrada.nextInt();
+                matriz[i][j]=valor;            
+            }        
+        }
+        //Dadas las dimensiones
         String res = null;
         int[][] M = new int[3][3];
         for (int a = 0; a < 3 / 2; a++) {

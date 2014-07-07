@@ -14,8 +14,10 @@ import javax.swing.JOptionPane;
  */
 public class Ejercicio13 {
    
-public static void main(String[] args) {
-    int n=0; int menor=0; int posicion =0;
+public static void main(String[] args) 
+{  
+        int n=0; int menor=0; int posicion =0;
+        JOptionPane.showMessageDialog(null," EJERCICIO 13 " , " Ejercicios de Programacion ", JOptionPane.INFORMATION_MESSAGE);
         n=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor del entero n"));
         int[] arreglo1=new int[n];
         int[] arregloauxiliar=new int[n];
@@ -34,10 +36,10 @@ public static void main(String[] args) {
                 arregloauxiliar[posicion]= arreglo1[i];
                 posicion++;
              }
-        }
+         }
          for (int i :arregloauxiliar) {
-        System.out.printf("%d ",i);
-    }//fin del for
+         System.out.printf("%d ",i);
+    }
   }
 }
 

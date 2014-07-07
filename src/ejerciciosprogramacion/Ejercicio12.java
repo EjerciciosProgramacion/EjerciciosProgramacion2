@@ -11,5 +11,7 @@ package ejerciciosprogramacion;
  * @authora :Luisa Holguin
  */
 public class Ejercicio12 {
+    //programa 12
+    
     
 }

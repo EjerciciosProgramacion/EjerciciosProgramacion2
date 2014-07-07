@@ -43,11 +43,11 @@ public static void main(String[] args) {
                   }
               }
           }       
-           for ( i=0;i<frase1.length;i++)
+          for ( i=0;i<frase1.length;i++)
                if (frase1[i]!=' ') {
                    System.out.println(" " + frase1[i]);
                }
-            Luisa = JOptionPane.showInputDialog("Desea continuar ingresando de nuevo otros valores SI=0 , NO=1 ");
+        Luisa = JOptionPane.showInputDialog("Desea continuar ingresando de nuevo otros valores SI=0 , NO=1 ");
         v = Integer.parseInt(Luisa);
         if (v==1)  
             bandera=1;                        

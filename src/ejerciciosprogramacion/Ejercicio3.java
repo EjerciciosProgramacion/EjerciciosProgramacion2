@@ -29,8 +29,7 @@ public class Ejercicio3 {
         y=Integer.parseInt(JOptionPane.showInputDialog("Cual es el valor del entero y"));
         if (x<=0 || x>255 || y<=0 || y>255)
         {
-            resp= -1;
-            JOptionPane.showMessageDialog(null,"Su resultado es " + resp);
+            JOptionPane.showMessageDialog(null,"Su resultado es " + "-1");
         }
         else
         {

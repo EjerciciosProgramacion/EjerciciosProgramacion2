@@ -11,10 +11,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-
 /**
  *
- * @authora :Luisa Holguin
+ * @authora: Luisa Holguin
  */
 public class Ejercicio11 {
         public static void main(String[] args) throws Exception{
@@ -30,8 +29,7 @@ public class Ejercicio11 {
         System.out.println("y: ");
         int y=entrada.nextInt();
         int valor;
-        int matriz[][]=new int [x][y];
-        
+        int matriz[][]=new int [x][y]; 
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
                 System.out.println("Ingrese valor en Pos.: "+i+j);
@@ -44,7 +42,6 @@ public class Ejercicio11 {
         for (int i = 0; i <x; i++) {
             for (int j = 0; j < y; j++) {
                 vectorcontndr[a]=matriz[i][j];
-                //System.out.println(vectorcontndr[a]);
                 a++;
             }
         }
@@ -73,15 +70,12 @@ public class Ejercicio11 {
                 numRepite = vectorcontndr[i];
             }
         }
-        System.out.println("El # que mas se repite es el: " + numRepite + 
-                " Porque se repite " + cantRepite+" Veces en la matriz");  
-        
-         
-            Luisa = JOptionPane.showInputDialog("Desea continuar ingresando de nuevo otros valores SI=0 , NO=1 ");
-          v = Integer.parseInt(Luisa);
-          if (v==1)  
-            bandera=1;                        
-          }       
-          JOptionPane.showMessageDialog(null," Fin del ejercicio 11 ");
+        System.out.println("El # que mas se repite es el: " + numRepite + " Porque se repite " + cantRepite+" Veces en la matriz");   
+        Luisa = JOptionPane.showInputDialog("Desea continuar ingresando de nuevo otros valores SI=0 , NO=1 ");
+        v = Integer.parseInt(Luisa);
+        if (v==1)  
+         bandera=1;                        
+        }       
+        JOptionPane.showMessageDialog(null," Fin del ejercicio 11 ");
   }
 }

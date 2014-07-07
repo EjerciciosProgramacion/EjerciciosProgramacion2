@@ -6,15 +6,18 @@
 
 package ejerciciosprogramacion;
 
+import javax.swing.JOptionPane;
+
 /**
  *
- * @authora :Luisa Holguin
+ * @authora: Luisa Holguin
  */
 public class Ejercicio14 {
     public int serie(int x, int y, int z){
         int vector[] = new int[z+1];
         int Z = -1;
         int cont = 0;
+        JOptionPane.showMessageDialog(null," EJERCICIO 14 " , " Ejercicios de Programacion ", JOptionPane.INFORMATION_MESSAGE);
         if ((x<=0)||(x>255)||(y<=0)||(y>255)||(z<=0)||(z>255)) {
             return Z;
         }else{

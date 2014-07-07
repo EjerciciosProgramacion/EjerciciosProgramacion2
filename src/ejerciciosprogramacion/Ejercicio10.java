@@ -41,7 +41,7 @@ public class Ejercicio10 {
           if (v==1)  
             bandera=1;                        
           }       
-          JOptionPane.showMessageDialog(null," Fin del ejercicio 10 ");
+          JOptionPane.showMessageDialog(null," Fin del ejercicio 10 ");//fin del programa
     }
 }
 

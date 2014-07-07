@@ -49,7 +49,7 @@ public class Ejercicio7 {
         if (l==1)  
             bandera=1;                        
         }       
-        JOptionPane.showMessageDialog(null," Fin del ejercicio 7 ");  
+        JOptionPane.showMessageDialog(null," Fin del ejercicio 7 "); //fin 
     }
 }
 

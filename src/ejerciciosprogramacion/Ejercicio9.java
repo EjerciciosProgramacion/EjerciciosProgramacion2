@@ -58,6 +58,6 @@ public class Ejercicio9 {
           if (v==1)  
             bandera=1;                        
           }       
-          JOptionPane.showMessageDialog(null," Fin del ejercicio 9 "); //fin 
+          JOptionPane.showMessageDialog(null," Fin del ejercicio 9 "); 
     }    
 }

@@ -9,11 +9,10 @@ package ejerciciosprogramacion;
 import javax.swing.JOptionPane ;
 /**
  *
- * @authora : Luisa Holguin
+ * @authora: Luisa Holguin
  */
 public class Ejercicio8 {
-     public static void main(String[] args) 
-      {
+     public static void main(String[] args) {
         int c=0;
         String Cadena1;
         int bandera=0;

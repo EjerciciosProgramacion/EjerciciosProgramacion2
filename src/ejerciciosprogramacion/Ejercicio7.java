@@ -11,17 +11,17 @@ import javax.swing.JOptionPane;
 import java.util.Scanner;
 /**
  *
- * @authora : Luisa Holguin
+ * @authora: Luisa Holguin
  */
 public class Ejercicio7 {
      public static void main(String[] args) 
      { 
       int bandera=0;
-      String Luisa= " ";
+      String Luisa= " "; 
       int l = 0;
       int numero=0,c=0;
       JOptionPane.showMessageDialog(null," EJERCICIO 7 " , " Ejercicios de Programacion ", JOptionPane.INFORMATION_MESSAGE);
-      while (bandera==0) {
+      while (bandera==0) { 
         int codigo;
         char x;
         String res="";
@@ -49,7 +49,7 @@ public class Ejercicio7 {
         if (l==1)  
             bandera=1;                        
         }       
-        JOptionPane.showMessageDialog(null," Fin del ejercicio 7 "); //fin 
+        JOptionPane.showMessageDialog(null," Fin del ejercicio 7 "); //fin del programa
     }
 }
 
